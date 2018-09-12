@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.sayan.merge.MergeSortTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.23 s <<< FAILURE! - in com.sayan.merge.MergeSortTest
+sort(com.sayan.merge.MergeSortTest)  Time elapsed: 0.229 s  <<< ERROR!
+java.lang.StackOverflowError
+
