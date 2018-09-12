@@ -2,9 +2,8 @@ package com.sayan.insertion;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-
-import static org.junit.Assert.*;
+import static com.sayan.ArrayHelper.generate;
+import static com.sayan.ArrayHelper.output;
 
 /**
  * Created by sayan on 9/12/18.
@@ -12,9 +11,11 @@ import static org.junit.Assert.*;
 public class InsertionSortTest {
     @Test
     public void sort() throws Exception {
-        int[] arr = {9, 7, 6 ,5 ,4 ,2 , 1};
+        int[] arr = generate(20);
+        output(arr);
+
         new InsertionSort().sort(arr);
-        Arrays.stream(arr).forEach(i -> System.out.print(i+" "));
+        output(arr);
     }
 
 }
